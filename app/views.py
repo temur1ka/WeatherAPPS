@@ -16,10 +16,10 @@ def home(request):
         city = 'kobuleti'
 
 
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=3a79905dec21a532e90fd06f1cdaf534'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={{YOURKEY}}'
     PARAMS = {'units':'metric'}
-    API_KEY = 'AIzaSyAgLN2H6SDn4pdG64Z44nAOhrq8W_QwSpw'
-    SEARCH_ENGINE = '708c1ace7f8614237'
+    API_KEY = 'YOUR KEY'
+    SEARCH_ENGINE = 'YOUR KEY'
 
     query = city + " 1920x1080"
     page = 1
